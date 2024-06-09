@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Open Sans", sans-serif;
+}
+.principal{
+   display: flex;
+   border: 2px solid #BEC1BB;  
+}
+.seccion-contactos{
+    border: 2px solid #BEC1BB;;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 0%;
+}
+.maria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    width: 100%;
+    border: 2px solid #BEC1BB;   
+}
+.maria-photo{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.user-name{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: "Open Sans", sans-serif;
+    color: #444749;
+}
+.user-name h6{
+    opacity: 45%;
+}
+.icons{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #828485;
+}
+/**************Botón******************/
+.botón{
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #BEC1BB;   
+}
+.button-1{
+    color: #fff;
+    background-color: #A491D2;
+    font-size: 25px;
+    padding: 20px;
+    width: 300px;
+    border: none;
+}
+.button-1:hover{
+    background-color: #cdc3e6;
+    cursor: pointer;
+}
+/********Juanita******/
+.Juanita-user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 20px; 
+    width: 100%;
+    border: 2px solid #BEC1BB;  
+}
+.Juanita-photo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.user-name2 h3{
+    color: #444749;
+    font-family: sans-serif;
+}
+/****************Alberto**************/
+.Alberto-user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 20px; 
+    width: 100%;
+    border: 2px solid #BEC1BB; 
+}
+
+.Alberto-photo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.user-name3 h3, p{
+    color: #444749;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+/***********Ignacio**************/
+.Ignacio-user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 20px; 
+    width: 100%;
+    border: 2px solid #BEC1BB; 
+}
+
+.Ignacio-photo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.user-name4 h3, p{
+    color: #444749;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+/************Cristian***************/
+.Cristian-user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 20px; 
+    width: 100%;
+    border: 2px solid #BEC1BB;
+}
+.Cristian-photo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.user-name5 h3, p{
+    color: #444749;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+/***************Maria-jose************/
+.Maria-jose-user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 20px; 
+    width: 100%;
+    border: 2px solid #BEC1BB;
+}
+.Maria-jose-photo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.user-name6 h3, p{
+    color: #444749;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+/**************Gonzalo**********/
+.Gonzalo-user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 20px; 
+    width: 100%;
+    border: 2px solid #BEC1BB;
+}
+.Gonzalo-photo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.user-name7 h3, p{
+    color: #444749;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+/*************juan pablo******************/
+.Juan-pablo-user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 20px; 
+    width: 100%;
+    border: 2px solid #BEC1BB;
+}
+.Juan-pablo-photo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.user-name8 h3, p{
+    color: #444749;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+/*****************magdalena******************/
+.Magdalena-user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 20px; 
+    width: 100%;
+    border: 2px solid #BEC1BB;
+}
+.Magdalena-photo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.user-name9 h3, p{
+    color: #444749;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+/***********contenedor-principal***********/
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+}
+.main-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 4.5rem;
+    color: #1B1F21;
+    padding: 30px;
+}
+.logo{
+    width: 370px;
+    height: 370px;
+}
+.subtitle{
+    font-size: 1.75rem;
+    text-align: center;
+    width: 55%;
+    font-family: "Open Sans", sans-serif;
+    color: #828485;
+}
+span{
+    color: #1B1F21;
+}
